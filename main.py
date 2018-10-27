@@ -32,7 +32,6 @@ def next_generation(cells):
   next_generation_cells: list
     2d-list next generation cells
   """
-  # next_generation_cells = np.array([[ for col in range(_RULE['w'])] for row in range(_RULE['h'])])
 
   return init()
 
@@ -67,7 +66,7 @@ def init():
   initialized_cells: list
     2d-list cells filled with random state
   """
-  initialized_cells = np.array([[random.randrange(0, _RULE['n']) for i in range(_RULE['w'])] for j in range(_RULE['h'])])
+  initialized_cells = [[random.randrange(0, _RULE['n']) for i in range(_RULE['w'])] for j in range(_RULE['h'])]
   return initialized_cells
 
 def render(cells):

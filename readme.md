@@ -1,5 +1,6 @@
 # CCA_PY
 CUI-based David Griffeath's Cycle Cellular Automaton made with Python
+![Sample](sample.gif)
 
 # Usage
 1. Install terminal that can display truecolor ([TrueColour.md](https://gist.github.com/XVilka/8346728#now-supporting-truecolour) will be your help)

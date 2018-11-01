@@ -1,5 +1,5 @@
 # CCA_PY
-CUI-based David Griffeath's Cycle Cellular Automaton made with Python  
+CUI-based David Griffeath's Cyclic Cellular Automaton made with Python  
 ![Sample](sample.gif)
 
 # Usage
